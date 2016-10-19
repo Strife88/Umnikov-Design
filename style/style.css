@@ -1,0 +1,20 @@
+.grey {
+    background: #eee;
+    padding-bottom: 40px;
+}
+div.grey div h3 {
+    margin-top: 40px;
+}
+div.black div h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+.black {
+    background: black;
+    padding: 40px 0px 40px 0px;
+}
+
+a {
+    margin-right: 20px;
+}
