@@ -1,3 +1,4 @@
+/*button style definition*/
 a.btn {
 font-family: PTSansBold, sans-serif;
 font-size: 20px;
@@ -6,7 +7,6 @@ background: #e4dc23;
 border-radius: 8px;
 padding: 5px 18px 5px 18px;
 text-transform: uppercase;
-
 }
 a.btn:hover {
 background:#e8a62e;
@@ -14,6 +14,22 @@ background:#e8a62e;
 a.btn:active  {
 background:#e4dc23;
 }
+
+/*red button style*/
+a.red, .red:visited {
+    background: #ff4b3f;
+    color: white;
+    box-shadow: none;
+}
+a.red:hover {
+    background: #992e26;
+    color: white;
+}
+a.red:active {
+    background: #ff4b3f;
+}
+
+/*ghost button definition*/
 a.ghost {
 border: 2px solid #e4dc23;
 color: #e4dc23;
@@ -21,31 +37,27 @@ background: none;
 } 
 a.btn.ghost:hover {
 color: black;
-background:#e8a62e;
-border-color: #e8a62e;
+background:#e4dc23;
+border-color: #e4dc23;
 }
 a.btn.ghost:active {
 color: black;
-background: #e4dc23;
-border-color:#e4dc23;
+background: #e8a62e;
+border-color:#e8a62e;
 box-shadow: none;
 }
 a.ghost:visited {
     color: #e4dc23;
 }
+
+/*small button definiton*/
 a.small {
 font-family: PTSansBold, sans-serif;
 font-size: 16px;
 padding: 3px 13px 3px 13px;
 }
-a {
-transition-timing-function: ease-in;
-transition-duration: 0.3s;
-}
-a:hover, a:active {
-transition-timing-function: ease-out;
-transition-duration: 0.2s;
-}
+
+/*text link style*/
 a.text-link {
 font-family: PTSansCaptionBold, sans-serif;
 font-size: 20px;
@@ -63,4 +75,22 @@ text-decoration: none;
 }
 .text-link:visited, .text-link:focus {
 text-decoration: none;
+}
+
+/*small text link style*/
+a.text-small {
+font-family: PTSansCaptionBold, sans-serif;
+font-size: 16px;
+border:none;
+padding:10px;
+}
+
+/*animation for buttons and links*/
+a {
+transition-timing-function: ease-in;
+transition-duration: 0.3s;
+}
+a:hover, a:active {
+transition-timing-function: ease-out;
+transition-duration: 0.2s;
 }

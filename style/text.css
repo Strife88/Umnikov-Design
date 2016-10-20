@@ -68,7 +68,7 @@ font-family: PTSansCaptionBold, sans-serif;
 font-size: 30px;
 }
 h5 {
-font-family: PTSansRegular, sans-serif;
+font-family: PTSansBold, sans-serif;
 font-size: 30px;
 }
 h6 {
@@ -79,9 +79,17 @@ p {
 font-family: PTSansCaption, sans-serif;
 font-size: 20px;
 }
+p.bold {
+font-family: PTSansCaptionBold, sans-serif;
+font-size: 20px;
+}
 
 span.disclaimer {
 font-family: PTSansCaption, sans-serif;
 font-size: 12px;    
 }
-
+span.big-text {
+font-family: OpenSansExtraBold, sans-serif;
+font-size: 200px;
+color: rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,11 @@
+.white {
+  background: red;
+}
+.box {
+    height: 200px;
+    width: 200%;
+}
+.slant {
+    transform: skewX(4deg);
+    z-index: 1;
+}

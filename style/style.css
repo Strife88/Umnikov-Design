@@ -1,9 +1,6 @@
 .grey {
-    background: #eee;
+    background: grey;
     padding-bottom: 40px;
-}
-div.grey div h3 {
-    margin-top: 40px;
 }
 div.black div h3 {
     margin-top: 0px;
@@ -15,6 +12,14 @@ div.black div h3 {
     padding: 40px 0px 40px 0px;
 }
 
-a {
+a, a.btn {
     margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+.rotate {
+    -ms-transform: rotate(-4deg); /* IE 9 */
+    -webkit-transform: rotate(-4deg); /* Safari */
+    transform: rotate(-4deg);
+    overflow: hidden;
 }
