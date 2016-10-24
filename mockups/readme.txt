@@ -3,4 +3,4 @@ This is the export pages
 
 /PC - all the pc pages files. PSD files, JPG files, in future [img] folder.
 
-/notebook - all the nootbook pages files. PSD files, JPG files, in future [img] folder.
+/notebook - all the notebook pages files. PSD files, JPG files, in future [img] folder.
